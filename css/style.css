@@ -174,3 +174,59 @@ body {
     font-weight: 700;
     text-decoration: underline;
   }
+  /* support container css here */
+.support-container {
+    width: 880px;
+    height: 250px;
+    margin: 0 auto;
+    background-image: url(../assets/handshake.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+    background-color: rgba(0,0,0, 0.5);
+    background-blend-mode: overlay;
+  }
+  
+  .support-content {
+    width: 720px;
+    color: white;
+  }
+  
+  .support-content h2 {
+    font-size: 32px;
+    font-family: Azeret Mono;
+    font-weight: 700;
+    line-height: 36px;
+  }
+  
+  .support-content p {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 18px 0px;
+  }
+  
+  .support-content input[type="text"] {
+    width: 300px;
+    padding: 12px 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+  }
+  
+  .support-content input[type="submit"] {
+    width: 100px;
+    padding: 12px 5px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 600;
+  }
