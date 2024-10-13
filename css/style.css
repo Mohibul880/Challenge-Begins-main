@@ -122,3 +122,13 @@ body {
     margin: 120px 0px;
     gap: 30px;
   }
+  /* video container code here  */
+.video-content {
+    width: 880px;
+    margin: 0 auto;
+  }
+  
+  iframe {
+    width: 880px;
+    background-position: cover;
+  }
